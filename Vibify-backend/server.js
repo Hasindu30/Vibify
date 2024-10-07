@@ -16,8 +16,8 @@ connectCloudinary();
 
 
  
-//middlewares
-app.use(express.json());
+//middlewares 
+app.use(express.json());  
 app.use(cors());
 
 // initializing routes
